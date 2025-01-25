@@ -16,7 +16,7 @@ spring:
         hibernate:
             ddl-auto: update
 welcome:
-    message: Welcome to PWC !! Bye bye EY tata aaaaaa bbbbbb guide babun !!
+    message: Welcome to PWC !! Bye bye EY tata aaaaaa bbbbbb guide babun welcome to gunupur !!
 management:
     endpoints:
         web:
