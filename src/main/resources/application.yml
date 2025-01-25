@@ -1,0 +1,29 @@
+server:
+   port: 8082
+
+
+
+
+
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/springboot_db
+        username: root
+        password: Debika@123
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+welcome:
+    message: Welcome to PWC !! Bye bye EY tata aaaaaa bbbbbb guide babun !!
+management:
+    endpoints:
+        web:
+           exposure: 
+              include: "*"
+logging:
+     level:
+        root: INFO
+
+
