@@ -16,7 +16,7 @@ spring:
         hibernate:
             ddl-auto: update
 welcome:
-    message: Implemented Swagger!!Welcome to swagger world !!
+    message: Hello!!
 management:
     endpoints:
         web:
